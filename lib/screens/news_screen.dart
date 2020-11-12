@@ -23,6 +23,7 @@ class _NewsScreenState extends State<NewsScreen> {
 
   @override
   void initState() {
+    DioClient();
     super.initState();
 
     _newsDomain = new NewsDomain(NewsRepository(dio: DioClient().dio));

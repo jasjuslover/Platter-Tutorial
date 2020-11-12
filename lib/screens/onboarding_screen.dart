@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:test_flutter/screens/login_screen.dart';
 import 'package:test_flutter/screens/news_screen.dart';
 import 'package:test_flutter/screens/register_screen.dart';
-import 'package:test_flutter/screens/test_screen.dart';
 import 'package:test_flutter/utils/app_keys.dart';
 
 class OnBoardingScreen extends StatefulWidget {

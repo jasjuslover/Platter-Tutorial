@@ -24,8 +24,8 @@ class LocationBloc extends Bloc<LocationEvent, LocationState> {
       : assert(locationDomain != null),
         super(LocationInitial());
 
-  @override
-  LocationState get initialState => LocationInitial();
+  // @override
+  // LocationState get initialState => LocationInitial();
 
   @override
   Stream<LocationState> mapEventToState(
@@ -46,5 +46,9 @@ class LocationBloc extends Bloc<LocationEvent, LocationState> {
   void selectLocation(LocationSuggestions location) {
     _location = location;
     _locationController.sink.add(location);
+  }
+
+  void dispose() {
+    _locationController.close();
   }
 }

@@ -145,6 +145,8 @@ class _NewsScreenState extends State<NewsScreen> {
                         );
                       }
                     }
+
+                    return Container();
                   },
                 ),
               ),

@@ -101,4 +101,10 @@ class _TestScreenState extends State<TestScreen> {
   Widget _buildError(String error) {
     return Center(child: Text(error));
   }
+
+  @override
+  void dispose() {
+    _locationBloc.dispose();
+    super.dispose();
+  }
 }

@@ -1,5 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:test_flutter/data/models/location.dart';
 import 'package:test_flutter/utils/constants.dart';
 

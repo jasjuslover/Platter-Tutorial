@@ -1,5 +1,5 @@
 trigger:
-  - master
+  - dev-husni
 
 jobs:
   - job: "lint_test"
